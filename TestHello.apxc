@@ -1,0 +1,8 @@
+@isTest
+public class TestHello {
+    @isTest
+    public static void testSayHello(){
+        String actualVal = Hello.sayHello();
+        System.assertEquals('Hello to Apex', actualVal);
+    }
+}
